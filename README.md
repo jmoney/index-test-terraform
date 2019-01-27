@@ -1,13 +1,19 @@
 # terraform-index-test
 
-# Version
+Reproducing a terraform issue with extracting values from a deeply nested object
+
+## Version
+
 `Terraform v0.11.8`
 
-# Run
+## Run
+
 `terraform apply`
 
-# Expected output
+## Expected output
+
 `bar`
 
-# Actual Output
+## Actual Output
+
 `Error: Error loading /workdir/main.tf: Error reading config for output value_from_inner_map_index: parse error at 1:23: expected "}" but found "["`
